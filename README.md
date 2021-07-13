@@ -6,7 +6,7 @@ Tech-Sap
 
 ## Project Description
 
-Tech-Sap is a E-commerce store that hosts computers and computer related items 
+Tech-Sap is a E-commerce store that hosts computers and computer related items. This is a blueprint website of what a E-Commers website could look like because you are not able to make purchases.
 
 ## Wireframes
 
@@ -80,6 +80,8 @@ https://airtable.com/shrJBDKWOfjN7Cubt/tbl1ksGrhx0tMkggU
 
 - add a (Fake) buy/add to cart feature 
 -  Able to look in cart at items you've added 
+-  Work with Stripe to create a fake checkout
+-  add a pc part picker Route so you can build your own computer
 
 ## Project Schedule
 
