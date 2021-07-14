@@ -114,6 +114,7 @@ This schedule will be used to keep track of your progress throughout the week an
 | Able to add new Items to Airtable | H | 3hrs | | |
 | Footer | L | 1hr | | |
 | Add Contact Page | L | 1hr | | |
+| Filling API with products to render on page | H | 5hrs | | |
 | | | | | |
 | Total | H | 19.5hrs|  |  |
 
