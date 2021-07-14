@@ -1,0 +1,8 @@
+.popular-items{
+  display: flex;
+  flex-flow:row wrap;
+  flex-basis: 33%;
+  max-width: 1480px;
+  padding: 20px;
+  margin: 0 auto;
+}
