@@ -16,7 +16,6 @@ function Homepage() {
 
   const fetchItems = async () => {
     const res = await axios(pageSizeURL, {headers})
-    console.log(res.data.records)
     setItems(res.data.records)
   }
 
