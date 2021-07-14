@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom'
 
 function ItemCard(props) {
   return (
-    <Link to={`${props.item.id}`}>
     <div className="container">
+      <Link className="link" to={`${props.item.id}`}>
       <img src={props.item.fields.imageURL} alt={props.item.fields.itemName}/>
       <h2 className="name">{props.item.fields.itemName}</h2>
-      <h4 className="price">{props.item.fields.price}</h4>
+        <h4 className="price">{props.item.fields.price}</h4>
+        </Link>
       </div>
-    </Link>
   )
 }
 

@@ -2,6 +2,8 @@
 img {
   margin: 3px;
   width: 100%;
+
+  overflow: cover;
 }
 
 .name{
@@ -13,9 +15,14 @@ font-size: 18px;
   display: flex;
 }
 
+.link {
+  text-decoration: none;
+  max-height: 400px;
+}
+
 .container{
   max-width: 250px;
-  max-height: 350px;
+  min-height: 400px;
   margin: 0 auto;
   margin-top: 20vh;
   background-color: white;
