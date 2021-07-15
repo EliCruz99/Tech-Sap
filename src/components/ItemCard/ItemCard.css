@@ -1,28 +1,36 @@
 
 img {
-  margin: 3px;
+  margin-bottom: 50px;
   width: 100%;
-
+  max-height: 220px;
   overflow: cover;
 }
 
 .name{
-display: flex;
-font-size: 18px;
+  margin-top: -10px;
+  display: flex;
+  font-size: 18px;
 }
 
 .price{
   display: flex;
+  justify-content: flex-end;
 }
 
 .link {
   text-decoration: none;
+  color: black;
   max-height: 400px;
 }
 
 .container{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-content: flex-end;
   max-width: 250px;
-  min-height: 400px;
+  /* min-height: 400px; */
+  max-height: 580px;
   margin: 0 auto;
   margin-top: 20vh;
   background-color: white;
