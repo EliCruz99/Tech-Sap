@@ -1,0 +1,71 @@
+.newCardInfo {
+  margin: 0 auto;
+}
+
+.productName {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.itemPrice {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.itemImageURL {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.itemDescription {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.itemCategory {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.image {
+  margin-bottom: 75px;
+  width: 100%;
+  max-height: 220px;
+
+}
+
+.name{
+  margin-top: -10px;
+  display: flex;
+  font-size: 18px;
+}
+
+.price{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  max-height: 400px;
+}
+
+.exampleCard{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-content: flex-end;
+  max-width: 250px;
+  min-height: 450px;
+  max-height: 550px;
+  margin: 0 auto;
+  margin-top: 5vh;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  padding: 8px;
+}
