@@ -6,6 +6,7 @@ import Homepage from './components/Homepage';
 import Store from './components/Store/Store'
 import ItemDetail from './components/ItemDetail/ItemDetail'
 import Categories from './components/Categories Page/Categories';
+import CreateCard from './components/CreateNewItem/CreateCard';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       </Route>
       <Route path="/categories">
         <Categories/>
+      </Route>
+      <Route path="/new-card">
+        <CreateCard/>
       </Route>
       <Footer/>
     </div>
