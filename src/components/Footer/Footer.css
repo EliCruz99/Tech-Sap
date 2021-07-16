@@ -1,0 +1,25 @@
+footer {
+  /* position: fixed;
+    height: 50px;
+    background-color: red;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px; */
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.git {
+  font-size: 25px;
+  margin: 5px
+}
+.linkedin {
+  font-size: 25px;
+  margin:5px;
+}
