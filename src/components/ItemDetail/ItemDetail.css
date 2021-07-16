@@ -1,0 +1,23 @@
+.itemName {
+  font-size: 30px;
+}
+
+
+
+.itemImage {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.imgContainer{
+  margin: 0 auto;
+  margin-top: 5vh;
+  padding: 8px;
+  max-width: 80%;
+}
+
+.textContainer {
+  margin: 0 auto;
+  max-width: 95%;
+  /* box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2); */
+}
