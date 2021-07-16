@@ -1,12 +1,14 @@
 .pagination{
   list-style-type: none;
   display: flex;
-  align-content:center;
+  align-content: flex-end;
+  position: relative;
   margin: 0 auto;
   margin-top: 1rem;
 }
 .numbers{
   box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
   margin: 1px;
+  text-decoration: none;
   padding: 10px
 }
