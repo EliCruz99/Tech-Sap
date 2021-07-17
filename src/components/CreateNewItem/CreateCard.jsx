@@ -14,7 +14,7 @@ const defaultForm = {
 
 function CreateCard() {
   const [input, setInput] = useState(defaultForm)
-  const [category, setCategory] = useState("Select an option below")
+  const [setCategory] = useState("Select an option below")
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -24,6 +24,8 @@ function CreateCard() {
     }))
     setCategory(e.target.value)
   }
+
+
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -63,7 +65,7 @@ function CreateCard() {
           value={input.description}
           onChange={handleChange}
           type="text" />
-        <select className="itemCategory" value={input.category,category} onChange={handleChange}>
+        <select className="itemCategory" name='category' value={input.category} onChange={handleChange}>
           <option>Select an option below</option>
           <option value="Monitor">Monitor</option>
           <option value="Keyboard">Keyboard</option>
