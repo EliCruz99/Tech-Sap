@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react'
 import { BASE_URL, headers } from '../../Services'
 import Loader from '../Loader'
 import ItemCard from '../ItemCard/ItemCard'
-import Pagination from '../Pagination/Pagination'
 import "./Categories.css"
 
 function Categories() {
@@ -26,24 +25,21 @@ function Categories() {
     <Loader />
   }
 
-  const itemsJSX = filteredItems.map((item)=> ( <div className="sortedItems"><ItemCard key={item.id} item={item} /></div>))
+  const itemsJSX = filteredItems.map((item)=> ( <div key={item.id} className="sortedItems"><ItemCard key={item.id} item={item} /></div>))
 
   const handleSubmit = (e) => {
     e.preventDefault()
     const filteredItems = items.filter((item) => item.fields.category === category)
-    console.log(filteredItems)
     setFilteredItems(filteredItems)
   }
   const handleChange = (e) => {
     setCategory(e.target.value)
-    // console.log(e.target.value)
   }
-  console.log(category)
 
   return (
     <>
     <form onSubmit={handleSubmit}>
-      <h2>What are you looking for today?</h2>
+      <h2 className="catIntro">What are you looking for today?</h2>
       <select value={category} onChange={handleChange} >
         <option>Select an option below</option>
         <option value="Monitor">Monitor</option>
@@ -59,7 +55,7 @@ function Categories() {
       </select>
       <input type="submit" value="Search" />
     </form>
-    <div className="card-container">
+    <div key={items.id} className="card-container">
         {filteredItems && itemsJSX}
     </div>
   </>
