@@ -89,13 +89,13 @@ This schedule will be used to keep track of your progress throughout the week an
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 13| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (React, CSS) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| Close to MVP | Incomplete
-|July 17-19 | MVP/Post-MVP | Incomplete
+|July 13| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|July 13| Project Approval | Complete
+|July 13| Core Application Structure (React, CSS) | Complete
+|July 14| Pseudocode / actual code | Complete
+|July 15| Initial Clickable Model  | Complete
+|July 16| Close to MVP | Complete
+|July 17-19 | MVP/Post-MVP | Complete
 |July 20| Presentations | Incomplete
 
 ## Timeframes
@@ -103,20 +103,21 @@ This schedule will be used to keep track of your progress throughout the week an
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Setting up Application | L | 10mins | | |
-| Creating Navbar | M | 30mins | | |
-| Securing all Routes/Making sure they go the right links | H | 2hrs | | |
-| Create Cards to hold Airtable Data | H | 3hrs | | |
-| Creating Homepage/Store front | M | 2hrs | | |
-| Getting Airtable info to render on the page | M | 1.5hrs | | |
-| Creating Categories Filter to search specific items | H | 3hrs | | |
-| Create new Items page | M | 3hrs | | |
-| Able to add new Items to Airtable | H | 3hrs | | |
-| Footer | L | 1hr | | |
-| Add Contact Page | L | 1hr | | |
-| Filling API with products to render on page | H | 5hrs | | |
-| | | | | |
-| Total | H | 19.5hrs|  |  |
+| Setting up Application | L | 10mins | 10mins | 10mins |
+| Creating Navbar | M | 30mins | 45mins | 45mins |
+| Securing all Routes/Making sure they go the right links | H | 2hrs | 2hrs | 2hrs |
+| Create Cards to hold Airtable Data | H | 3hrs | 4hrs | 4hrs |
+| Creating Homepage/Store front | M | 2hrs | 2hrs | 2hrs |
+| Getting Airtable info to render on the page | M | 1.5hrs | 1.5hrs | 1.5hrs |
+| Creating Categories Filter to search specific items | H | 3hrs | 5hrs | 5hrs |
+| Create new Items page | M | 3hrs | 3hrs | 3hrs |
+| Able to add new Items to Airtable | H | 3hrs | 4.5hrs | 4.5hrs |
+| Footer | L | 1hr | 1hr | 1hr |
+| Filling API with products to render on page | H | 5hrs | 5hrs | 5hrs |
+| Create Pagination | H | 3hrs | 6hrs | 6hrs |
+|Styling pages | H | 5hrs | 5hrs | 5hrs |
+| Media queries | H | 3hrs | 3hrs | 3hrs |
+| Total | H | 35.1hrs| 43.25hrs | 43.25hrs |
 
 
 
