@@ -1,7 +1,14 @@
-.nav-links{
-  display: flex;
-  justify-content: space-between;
+  .nav-links{
+    display: flex;
+    justify-content: space-between;
     font-size: 20px;
-    color: black;
+    color: white;
     text-decoration: none;
-}
+  }
+
+  @media screen and (max-width: 375px) {
+    .nav-links{
+      display: none
+    }
+    
+  }

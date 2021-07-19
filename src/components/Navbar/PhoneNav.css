@@ -1,0 +1,41 @@
+.phoneNav {
+  display:none
+}
+
+@media (max-width: 375px){
+  .phoneNav {
+    display: block;
+  }
+  .menuIcon {
+    font-size: 25px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+  }
+  .appName{
+    font-size: 20px;
+  }
+  .menuDetails {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    z-index: 50;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    display: flex;
+    display: block;
+  }
+  .emptySide {
+    background-color: rgba(0,0,0,0.5);
+    display: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 1000vh;
+    z-index: 50;
+  }
+}
+
+/* rgba(0,0,0,0.5) */
