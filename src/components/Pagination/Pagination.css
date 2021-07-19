@@ -57,3 +57,15 @@
   padding: 20px;
   margin: 0 auto;
 }
+
+@media screen and (max-width:375px) {
+  .dataContainer {
+    padding: 0;
+  }
+  .container{
+    margin-top: 5vh;
+  }
+  .paginationItem {
+    margin: 0;
+  }
+}

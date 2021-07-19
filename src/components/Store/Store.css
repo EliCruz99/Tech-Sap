@@ -3,4 +3,5 @@
   flex-flow:row wrap;
   max-width: 1480px;
   padding: 5px;
+  margin: 0 auto;
 }
