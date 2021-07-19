@@ -1,7 +1,6 @@
 .items{
   display: flex;
   flex-flow:row wrap;
-  justify-content: center;
-  align-content: center;
+  max-width: 1480px;
   padding: 5px;
 }
