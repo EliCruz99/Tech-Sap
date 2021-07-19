@@ -11,15 +11,18 @@ function PhoneNav() {
   let menu
   let menuMask
 
+  const handleClick = () => {
+    setShowMenu(false)
+  }
+
   if (showMenu) {
     menu = <div className="menuDetails">
-      <Link to="/">Home</Link>
-      <Link to="/store">Store</Link>
-      <Link to="/categories">Categories</Link>
-      <Link to="/new-card">New Item</Link>
+      <Link to="/" onClick={handleClick}>Home</Link>
+      <Link to="/store" onClick={handleClick}>Store</Link>
+      <Link to="/categories" onClick={handleClick}>Categories</Link>
+      <Link to="/new-card" onClick={handleClick}>New Item</Link>
     </div>
     menuMask = <div onClick={() => setShowMenu(false)} className="emptySide"></div>
-
   }
 
 
