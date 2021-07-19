@@ -14,6 +14,7 @@ const defaultForm = {
 
 function CreateCard() {
   const [input, setInput] = useState(defaultForm)
+  // eslint-disable-next-line
   const [category,setCategory] = useState("Select an option below")
 
   const handleChange = (e) => {
@@ -29,6 +30,7 @@ function CreateCard() {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+    // eslint-disable-next-line
     const res = await axios.post(BASE_URL, { fields: input }, { headers })
   }
 
