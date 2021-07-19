@@ -8,15 +8,18 @@ function Pagination({ data, RenderComponent, pageLimit, dataLimit }) {
 
   function goToNextPage() {
     setCurrentPage((page) => page + 1)
+    window.scrollTo(0 , 0)
   }
 
   function goToPreviousPage() {
     setCurrentPage((page) => page - 1);
+    window.scrollTo(0 , 0)
   }
 
   function changePage(event) {
     const pageNumber = Number(event.target.textContent);
     setCurrentPage(pageNumber);
+    window.scrollTo(0 , 0)
   }
 
   const getPaginatedData = () => {
