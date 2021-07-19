@@ -25,11 +25,14 @@
 @media screen and (max-width: 375px) {
   .itemImg{
     width: 100vw;
-    height: 100px;
+    height: 400px;
   }
   .imgContainer{
     margin: 0;
     padding: 0;
     width: 100px;
+  }
+  .textContainer {
+    margin-bottom: 35px;
   }
 }

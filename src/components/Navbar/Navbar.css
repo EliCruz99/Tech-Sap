@@ -2,8 +2,20 @@
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    color: black;
+    background-color: #232F3E;
     text-decoration: none;
+    padding-bottom: 5px;
+  }
+  .techSap{ 
+    color: white;
+    text-decoration: none;
+  }
+  .links {
+    color: white;
+    text-decoration: none;
+  }
+  .links:hover {
+    border-bottom: 2px solid white;
   }
 
   @media screen and (max-width: 375px) {

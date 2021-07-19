@@ -7,11 +7,11 @@ function Navbar() {
   return (
     <>
     <nav className="nav-links">
-      TechSap
-      <Link to="/">Home</Link>
-      <Link to="/store">Store</Link>
-      <Link to="/categories">Categories</Link>
-      <Link to="/new-card">New Item</Link>
+      <Link to="/" className="techSap">TechSap</Link>
+      <Link to="/" className="links">Home</Link>
+      <Link to="/store" className="links">Store</Link>
+      <Link to="/categories" className="links">Categories</Link>
+      <Link to="/new-card" className="links">New Item</Link>
       </nav>
       <PhoneNav/>
     </>
