@@ -14,7 +14,7 @@ const defaultForm = {
 
 function CreateCard() {
   const [input, setInput] = useState(defaultForm)
-  const [setCategory] = useState("Select an option below")
+  const [category,setCategory] = useState("Select an option below")
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -30,7 +30,6 @@ function CreateCard() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     const res = await axios.post(BASE_URL, { fields: input }, { headers })
-    console.log(res)
   }
 
   return (
@@ -50,7 +49,7 @@ function CreateCard() {
           name="price"
           value={input.price}
           onChange={handleChange}
-          type="text" />
+          type="number" />
         <input
           className="itemImageURL"
           placeholder="Product Image URL"
