@@ -21,3 +21,15 @@
   max-width: 95%;
   /* box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2); */
 }
+
+@media screen and (max-width: 375px) {
+  .itemImg{
+    width: 100vw;
+    height: 100px;
+  }
+  .imgContainer{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+  }
+}
