@@ -17,10 +17,10 @@ function PhoneNav() {
 
   if (showMenu) {
     menu = <div className="menuDetails">
-      <Link to="/" onClick={handleClick}>Home</Link>
-      <Link to="/store" onClick={handleClick}>Store</Link>
-      <Link to="/categories" onClick={handleClick}>Categories</Link>
-      <Link to="/new-card" onClick={handleClick}>New Item</Link>
+      <Link to="/" onClick={handleClick} className="links">Home</Link>
+      <Link to="/store" onClick={handleClick} className="links">Store</Link>
+      <Link to="/categories" onClick={handleClick} className="links">Categories</Link>
+      <Link to="/new-card" onClick={handleClick} className="links">New Item</Link>
     </div>
     menuMask = <div onClick={() => setShowMenu(false)} className="emptySide"></div>
   }
