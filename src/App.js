@@ -8,6 +8,9 @@ import ItemDetail from './components/ItemDetail/ItemDetail'
 import Categories from './components/Categories Page/Categories';
 import CreateCard from './components/CreateNewItem/CreateCard';
 
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
   return (
     <div className="App">
@@ -27,6 +30,7 @@ function App() {
       <Route path="/new-card">
         <CreateCard/>
       </Route>
+      <ToastContainer/>
       <Footer/>
     </div>
   );

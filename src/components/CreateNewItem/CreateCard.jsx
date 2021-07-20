@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import axios from 'axios';
 import { BASE_URL, headers } from '../../Services'
+import { toast } from 'react-toastify';
 import "./CreateCard.css"
 
 const defaultForm = {
@@ -32,6 +33,7 @@ function CreateCard() {
     e.preventDefault()
     // eslint-disable-next-line
     const res = await axios.post(BASE_URL, { fields: input }, { headers })
+    toast.success("Created new Item")
   }
 
   return (
