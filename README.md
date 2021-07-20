@@ -4,6 +4,8 @@
 
 Tech-Sap
 
+https://tech-sap.netlify.app/
+
 ## Project Description
 
 Tech-Sap is a E-commerce store that hosts computers and computer related items. This is a blueprint website of what a E-Commers website could look like because you are not able to make purchases.
