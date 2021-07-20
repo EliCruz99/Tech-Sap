@@ -51,7 +51,7 @@ function CreateCard() {
           name="price"
           value={input.price}
           onChange={handleChange}
-          type="number" />
+          type="text" />
         <input
           className="itemImageURL"
           placeholder="Product Image URL"
@@ -59,7 +59,7 @@ function CreateCard() {
           value={input.imageURL}
           onChange={handleChange}
           type="text" />
-        <input
+        <textarea
           className="itemDescription"
           placeholder="Product Description"
           name="description"
