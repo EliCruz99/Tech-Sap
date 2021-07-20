@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { useHistory } from 'react-router';
 import axios from 'axios';
 import { BASE_URL, headers } from '../../Services'
 import { toast } from 'react-toastify';
@@ -16,7 +17,8 @@ const defaultForm = {
 function CreateCard() {
   const [input, setInput] = useState(defaultForm)
   // eslint-disable-next-line
-  const [category,setCategory] = useState("Select an option below")
+  const [category, setCategory] = useState("Select an option below")
+  const history = useHistory()
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -34,6 +36,7 @@ function CreateCard() {
     // eslint-disable-next-line
     const res = await axios.post(BASE_URL, { fields: input }, { headers })
     toast.success("Created new Item")
+    history.push("/store")
   }
 
   return (
