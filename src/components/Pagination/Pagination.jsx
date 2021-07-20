@@ -82,3 +82,4 @@ function Pagination({ data, RenderComponent, pageLimit, dataLimit }) {
 export default Pagination
 
 
+// pagination code https://academind.com/tutorials/reactjs-pagination/
